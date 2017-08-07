@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Print";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model LinkedList<string>
+
+<h2>Print</h2>
+
+
+@foreach(string unit in Model)
+{
+    <text><div> @unit </div></text>
+}
